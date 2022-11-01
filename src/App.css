@@ -3,10 +3,17 @@
   margin: 0;
   padding: 0;
 }
-
-.profile__img-container {
+body {
+  font-family: "Inter", sans-serif;
+}
+.profile {
+  margin: 0px auto;
+  width: 340px;
+  position: relative;
   margin-top: 64px;
   margin-bottom: 84px;
+}
+.profile__img-container {
   display: grid;
   place-items: center;
 }
@@ -17,6 +24,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
+  color: #101828;
 }
 
 #slack {
@@ -24,10 +32,21 @@
 }
 a {
   text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #101828;
 }
-
+.tooltip__container {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 .tooltip {
   position: relative;
+
   display: inline-block;
 }
 
@@ -73,6 +92,7 @@ a {
 
 .icons {
   text-align: center;
+  padding: 24px;
 }
 
 .icons > span {
@@ -81,6 +101,7 @@ a {
 
 footer {
   padding-left: 20px;
+  border-top: 1px solid #eaecf0;
 }
 footer ~ {
   margin-bottom: 16px;
@@ -89,5 +110,8 @@ footer ~ {
   footer {
     display: flex;
     justify-content: space-between;
+  }
+  .grid {
+    max-width: 900px;
   }
 }
