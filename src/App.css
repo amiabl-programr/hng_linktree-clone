@@ -19,6 +19,10 @@
   line-height: 28px;
 }
 
+#slack {
+  display: none;
+}
+
 .grid {
   margin: 0px auto;
   text-align: center;
@@ -30,6 +34,20 @@
   margin-bottom: 24px;
 }
 
+.icons {
+  text-align: center;
+}
+
+.icons > span {
+  margin-right: 24px;
+}
+
+footer {
+  padding-left: 20px;
+}
+footer ~ {
+  margin-bottom: 16px;
+}
 @media (min-width: 1024px) {
   footer {
     display: flex;
