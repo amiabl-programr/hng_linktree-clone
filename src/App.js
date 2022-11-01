@@ -6,6 +6,7 @@ import Zuri_logo from "./assets/Zuri.Internship_Logo.svg";
 import I4G_Logo from "./assets/I4G.svg";
 import slack_icon from "./assets/slack-icon.svg";
 import github_icon from "./assets/github-icon.svg";
+import share_icon from "./assets/share-btn.svg";
 
 import './App.css';
 
@@ -15,9 +16,16 @@ function App() {
       <main>
 
         <div className='profile__img-container'>
-          <img src={profile_img} id="profile__img" alt="profile-image" />
-          <span id='twitter'>vicayo_oluwa</span>
-          <span id='slack'>vicayo</span>
+          <div>
+            <img src={profile_img} id="profile__img" alt="profile-image" />
+            <span id='twitter'>vicayo_oluwa</span>
+            <span id='slack'>vicayo</span>
+          </div>
+
+          <div className="tooltip">
+            <img src={share_icon}  alt="" />
+            <span className="tooltiptext"> Share Link</span>
+          </div>
         </div>
 
         <div className='grids'>
