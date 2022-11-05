@@ -2,7 +2,14 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div>index</div>
+        <>
+        <main>
+
+        </main>
+        <footer>
+            
+        </footer>
+        </>
     )
 }
 
