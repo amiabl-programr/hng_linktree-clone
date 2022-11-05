@@ -14,7 +14,7 @@ function Contact() {
                     <p>Hi there, contact me to ask me about anything you have in mind.</p>
                 </header>
 
-                <form action="">
+                <form className='form'>
                     <div>
                         <div className='input_container'>
                             <label htmlfor="first_name">Firstname</label>
@@ -36,7 +36,7 @@ function Contact() {
                     </div>
                     <div>
                         <input type="checkbox" />
-                        <p>You agree to providing your data to who may contact you.</p>
+                        <span>You agree to providing your data to who may contact you.</span>
                     </div>
 
                     <button id='btn__submit'>Send message</button>
@@ -47,4 +47,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Contact; 
