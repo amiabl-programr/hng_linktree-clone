@@ -103,9 +103,7 @@ footer {
   padding-left: 20px;
   border-top: 1px solid #eaecf0;
 }
-footer ~ {
-  margin-bottom: 16px;
-}
+
 @media (min-width: 1024px) {
   footer {
     display: flex;
